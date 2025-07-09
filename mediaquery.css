@@ -622,6 +622,10 @@
 }
 
 @media (max-width: 960px) {
+    .hero {
+        padding-top: 90px;
+        height: calc(90vh - 100px);
+    }
     /* Skilled Nail Art Section */
     .skilled-nail-art {
         padding: 1rem 1.5rem;
@@ -662,7 +666,7 @@
     /* Hero Section */
     .hero {
         padding-top: 90px;
-        height: calc(100vh - 90px);
+        height: calc(70vh - 90px);
     }
     .hero-slider {
         height: calc(100% - 2rem);
@@ -707,10 +711,10 @@
         padding: 0.75rem 1rem;
     }
     .skilled-nail-art .container {
-        gap: 1rem;
+        gap: 1.5rem;
     }
     .skilled-nail-art .content {
-        gap: 0.8rem;
+        gap: 1rem;
     }
     .skilled-nail-art .bebek {
         font-size: clamp(1.25rem, 4vw, 2rem);
@@ -993,7 +997,7 @@
     /* Hero Section */
     .hero {
         padding-top: 70px;
-        height: calc(100vh - 70px);
+        height: calc(50vh - 70px);
     }
     .hero-slider {
         height: calc(100% - 1.5rem);
@@ -1034,13 +1038,13 @@
 
     /* Skilled Nail Art Section */
     .skilled-nail-art {
-        padding: 0.5rem 0.75rem;
+        padding: 0.75rem 0.75rem;
     }
     .skilled-nail-art .container {
-        gap: 0.8rem;
+        gap: 1.5rem;
     }
     .skilled-nail-art .content {
-        gap: 0.6rem;
+        gap: 1rem;
         min-width: 100%;
     }
     .skilled-nail-art .tagline {
